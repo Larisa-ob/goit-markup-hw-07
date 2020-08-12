@@ -1,0 +1,126 @@
+.client {
+  padding-top: 132px;
+}
+.container-clients-item {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.svg-icon-logo1 {
+  width: 44px;
+  height: 49px;
+}
+.svg-icon-logo2 {
+  width: 40px;
+  height: 52px;
+}
+.svg-icon-logo3 {
+  width: 41px;
+  height: 42px;
+}
+.svg-icon-logo4 {
+  width: 80px;
+  height: 42px;
+}
+.svg-icon-logo5 {
+  width: 59px;
+  height: 42px;
+}
+.svg-icon-logo6 {
+  width: 88.5px;
+  height: 45px;
+}
+.svg-icon-logo1,
+.svg-icon-logo2,
+.svg-icon-logo3,
+.svg-icon-logo4,
+.svg-icon-logo5,
+.svg-icon-logo6 {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.container-clients-item:hover,
+.footer-mail:hover {
+  border-color: var(--accent-color);
+}
+.container-clients-item:hover .svg-icon-logo1,
+.container-clients-item:hover .svg-icon-logo2,
+.container-clients-item:hover .svg-icon-logo3,
+.container-clients-item:hover .svg-icon-logo4,
+.container-clients-item:hover .svg-icon-logo5,
+.container-clients-item:hover .svg-icon-logo6 {
+  fill: var(--accent-color);
+}
+.container-clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+/* footer*/
+.logo-footer {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f303a;
+}
+.text-footer {
+  font-style: normal;
+  line-height: 1.7;
+}
+.adress-footer {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.div-text-footer {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: start;
+}
+.container-sosial-item-link:hover {
+  background-color: var(--accent-color);
+}
+.container-sosial-item-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--link-text-color);
+}
+.container-sosial-item-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo-footer .container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.container-footer-adress {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: left;
+}
+.container-footer-adress a {
+  text-decoration: none;
+}
+.footer-adress {
+  margin-bottom: 9px;
+  margin-top: 20px;
+}
+.footer-adress-mail {
+  margin-bottom: 9px;
+}
+.container-social {
+  margin-top: 20px;
+}

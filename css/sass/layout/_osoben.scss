@@ -1,0 +1,26 @@
+.osob-items {
+  display: block;
+  width: 270px;
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.osob-items .ocob-picture {
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  background-color: var(--bgr-section-color);
+}
+.osob-items:not(:last-child) {
+  margin-right: 30px;
+}
+.comand {
+  background-color: var(--bgr-section-color);
+}
+.section-title-osob {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}

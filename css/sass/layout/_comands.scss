@@ -1,0 +1,70 @@
+.comand {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 94px;
+  padding-bottom: 107px;
+  text-align: center;
+  align-items: center;
+}
+.container-comand-item {
+  width: 270px;
+  background-color: var(--link-text-color);
+  padding-bottom: 24px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
+.container-comand-item:not(:last-child) {
+  margin-right: 30px;
+}
+.section-title-comand {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  margin-top: 30px;
+}
+.bgr-comand p {
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 24px;
+}
+.container-sosial .social {
+  width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.container-sosial-item:not(:last-child) {
+  margin-right: 10px;
+}
+.container-sosial-comand-link:hover {
+  background-color: var(--accent-color);
+}
+.container-sosial-comand-link:hover .container-sosial-comand-svg {
+  fill: #ffffff;
+}
+.container-sosial-comand-svg {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.container-sosial-comand-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
