@@ -11,8 +11,8 @@ input {
 }
 body,
 .backdrop {
-  background-color: var(--link-text-color);
-  color: var(--primary-text-color);
+  background-color: $link-text-color;
+  color: $primary-text-color;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 14px;

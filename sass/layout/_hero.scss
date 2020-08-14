@@ -15,10 +15,8 @@
   background-size: cover;
 }
 .hero-title {
+  @include font(900, 44px, 1.36);
   margin-bottom: 20px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   text-align: center;
 }
 .hero-title,
@@ -27,5 +25,5 @@
 .div-text-footer,
 .div-text-footer-write,
 .text-footer {
-  color: var(--link-text-color);
+  color: $link-text-color;
 }

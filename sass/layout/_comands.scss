@@ -9,7 +9,7 @@
 }
 .container-comand-item {
   width: 270px;
-  background-color: var(--link-text-color);
+  background-color: $link-text-color;
   padding-bottom: 24px;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -19,9 +19,7 @@
   margin-right: 30px;
 }
 .section-title-comand {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(500, 16px, 1.19);
   margin-top: 30px;
 }
 .bgr-comand p {
@@ -47,7 +45,7 @@
   margin-right: 10px;
 }
 .container-sosial-comand-link:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .container-sosial-comand-link:hover .container-sosial-comand-svg {
   fill: #ffffff;

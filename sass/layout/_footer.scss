@@ -12,10 +12,7 @@ input {
 }
 .div-text-footer-write .hero-button {
   width: 195px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  @include font(700, 16px, 1.88, 0.06em);
   padding: 10px 20px;
   background-image: url("../images/svg/iconsend.svg");
   background-repeat: no-repeat;
@@ -40,23 +37,20 @@ input {
 
 .footer-mail:focus,
 .footer-mail:hover {
-  border-color: var(--accent-color);
-  color: var(--link-text-color);
+  border-color: $accent-color;
+  color: $link-text-color;
   cursor: pointer;
 }
 .footer-mail:not(:placeholder-shown) .contact-form-label {
   color: var(--primary-text-color);
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 
 .contact-form-label {
   position: absolute;
   left: 15px;
   top: 15px;
-  font-weight: 400;
+  @include font(400, 16px, 1.25);
   text-transform: none;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.3);
 }

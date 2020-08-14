@@ -47,7 +47,7 @@
 }
 .container-clients-item:hover,
 .footer-mail:hover {
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 .container-clients-item:hover .svg-icon-logo1,
 .container-clients-item:hover .svg-icon-logo2,
@@ -55,7 +55,7 @@
 .container-clients-item:hover .svg-icon-logo4,
 .container-clients-item:hover .svg-icon-logo5,
 .container-clients-item:hover .svg-icon-logo6 {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 .container-clients-item:not(:last-child) {
   margin-right: 30px;
@@ -82,12 +82,12 @@
   text-align: start;
 }
 .container-sosial-item-link:hover {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .container-sosial-item-svg {
   width: 20px;
   height: 20px;
-  fill: var(--link-text-color);
+  fill: $link-text-color;
 }
 .container-sosial-item-link {
   display: flex;
