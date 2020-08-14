@@ -56,6 +56,19 @@ img {
   text-align: center;
 }
 
+.container .portfolio,
+.container .osob-container,
+.container .job-container,
+.container .bgr-comand,
+.container .container-sosial,
+.container .container-clients,
+.container .container-portfolio,
+.portfolio-position-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .section-title2 {
   font-weight: 700;
   font-size: 36px;
