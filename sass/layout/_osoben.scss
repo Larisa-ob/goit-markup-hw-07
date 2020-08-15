@@ -1,3 +1,6 @@
+.osob-container {
+  @extend %align_center;
+}
 .osob-items {
   display: block;
   width: 270px;
@@ -5,22 +8,21 @@
   justify-content: center;
   align-items: center;
   margin: 0;
-}
-.osob-items .ocob-picture {
-  width: 270px;
-  height: 120px;
-  padding: 25px 100px;
-  background-color: $bgr-section-color;
-}
-.osob-items:not(:last-child) {
-  margin-right: 30px;
-}
-.comand {
-  background-color: $bgr-section-color;
+  .ocob-picture {
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+    background-color: $bgr-section-color;
+  }
+  p {
+    @include font($lh: 1.71);
+  }
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .section-title-osob {
-  font-weight: 700;
-  line-height: 1.14;
+  @include font(700, 1.14);
   text-transform: uppercase;
   margin-bottom: 20px;
 }

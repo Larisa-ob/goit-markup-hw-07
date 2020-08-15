@@ -6,6 +6,15 @@
   padding-bottom: 107px;
   text-align: center;
   align-items: center;
+  background-color: $bgr-section-color;
+}
+.bgr-comand {
+  @extend %align_center;
+  p {
+    font-size: 16px;
+    line-height: 1.19;
+    margin-bottom: 24px;
+  }
 }
 .container-comand-item {
   width: 270px;
@@ -14,18 +23,14 @@
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
-}
-.container-comand-item:not(:last-child) {
-  margin-right: 30px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .section-title-comand {
-  @include font(500, 16px, 1.19);
+  @include font(500, 1.19, 16px);
   margin-top: 30px;
-}
-.bgr-comand p {
-  font-size: 16px;
-  line-height: 1.19;
-  margin-bottom: 24px;
 }
 .container-sosial .social {
   width: 206px;

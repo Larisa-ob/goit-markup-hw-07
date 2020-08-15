@@ -1,0 +1,55 @@
+input {
+  font-family: inherit;
+}
+.div-text-footer-write {
+  position: relative;
+  display: flex;
+  height: 86px;
+  margin-top: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;
+}
+.div-text-footer-write .hero-button {
+  width: 195px;
+  @include font(700, 1.88, 16px, 0.06em);
+  padding: 10px 20px;
+  background-image: url("../images/svg/iconsend.svg");
+  background-repeat: no-repeat;
+  background-position: center right 7px;
+  background-size: 24px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.footer-mail {
+  max-width: 358px;
+  margin: 0;
+  padding: 15px;
+  padding-left: 16px;
+  margin-right: 12px;
+  background-color: #2f303a;
+  border-color: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-mail:focus,
+.footer-mail:hover {
+  border-color: $accent-color;
+  color: $link-text-color;
+  cursor: pointer;
+}
+.footer-mail:not(:placeholder-shown) .contact-form-label {
+  color: var(--primary-text-color);
+  border-color: $accent-color;
+}
+
+.contact-form-label {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  @include font(400, 1.25, 16px);
+  text-transform: none;
+  color: rgba(255, 255, 255, 0.3);
+}
