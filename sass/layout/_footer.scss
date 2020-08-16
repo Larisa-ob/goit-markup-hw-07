@@ -44,12 +44,16 @@
 }
 .div-text-footer {
   text-align: start;
+  color: $link-text-color;
   b {
     display: inline-block;
     margin-bottom: 20px;
     @include font($fw: 700);
     text-transform: uppercase;
   }
+}
+.text-footer {
+  color: $link-text-color;
 }
 .container-sosial-item-svg {
   width: 20px;

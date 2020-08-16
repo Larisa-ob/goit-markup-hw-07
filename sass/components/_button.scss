@@ -10,10 +10,7 @@
     background-color: $accent-color;
   }
 }
-.button.primary,
-.hero-button,
-.container-button-item .button:hover,
-.container-button-item .button:focus {
+.hero-button {
   color: $link-text-color;
   background-color: $accent-color;
 }

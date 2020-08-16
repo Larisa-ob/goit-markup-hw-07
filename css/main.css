@@ -48,10 +48,6 @@ img {
   text-align: center;
 }
 
-/*
-.container .container-sosial,
-.container .container-portfolio,
-.portfolio-position-text*/
 .osob-container, .job-container, .bgr-comand, .social, .container-sosial-comand-link, .container-clients {
   display: flex;
   flex-wrap: wrap;
@@ -84,10 +80,7 @@ img {
   background-color: #2196f3;
 }
 
-.button.primary,
-.hero-button,
-.container-button-item .button:hover,
-.container-button-item .button:focus {
+.hero-button {
   color: #ffffff;
   background-color: #2196f3;
 }
@@ -248,12 +241,6 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 20px;
   text-align: center;
-  color: #ffffff;
-}
-
-.div-text-footer,
-.div-text-footer-write,
-.text-footer {
   color: #ffffff;
 }
 
@@ -548,6 +535,7 @@ img {
 
 .div-text-footer {
   text-align: start;
+  color: #ffffff;
 }
 
 .div-text-footer b {
@@ -558,6 +546,10 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.text-footer {
+  color: #ffffff;
 }
 
 .container-sosial-item-svg {
