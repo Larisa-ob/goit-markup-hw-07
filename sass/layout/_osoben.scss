@@ -22,7 +22,8 @@
   }
 }
 .section-title-osob {
-  @include font(700, 1.14);
+  @include font($fw: 700);
   text-transform: uppercase;
   margin-bottom: 20px;
+  color: $title-text-color;
 }

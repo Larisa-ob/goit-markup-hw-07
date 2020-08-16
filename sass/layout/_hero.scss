@@ -18,10 +18,9 @@
   @include font(900, 44px, 1.36);
   margin-bottom: 20px;
   text-align: center;
+  color: $link-text-color;
 }
-.hero-title,
-.section-title-ch,
-.logo-text-footer,
+
 .div-text-footer,
 .div-text-footer-write,
 .text-footer {
